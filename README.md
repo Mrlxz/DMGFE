@@ -2,11 +2,11 @@
 ## We will put all the codes up after the paper is officially published
 ## Installation
 First you have to make sure that you have all dependencies in place.
-You can create an anaconda environment called *DRTN* using
+You can create an anaconda environment called *DMGFE* using
 
 ```
-conda env create -n DRTN python=3.7 ## recommended python=3.7+
-conda activate DRTN
+conda env create -n DMGFE python=3.7 ## recommended python=3.7+
+conda activate DMGFE
 sudo pip3 install torch torchvision 
 sudo pip3 install numpy scipy matplotlib
 sudo pip3 install dlib
@@ -27,18 +27,18 @@ python3 setup.py build_ext -i
 ```
 To generate results using a trained model, use
 ```
-python3 main.py -f samples/test.jpg 
+python3 main.py -f Samples/test.jpg 
 ```
 ## Evaluation
-To eval our DRTN , use
+To eval our DMGFE , use
 ```
 python benchmark.py
 ```
 ## Training
-To train our DRTN, use
+To train our DMGFE, use
 ```
 cd training
-bash train_DRTN.sh
+bash train_DMGFE.sh
 ```
 ## Futher Information
 If you have any problems with the code, please list the problems you encountered in the issue area, and I will reply you soon. Thanks for the baseline work [3DDFA](https://github.com/cleardusk/3DDFA).
