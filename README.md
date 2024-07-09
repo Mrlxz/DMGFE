@@ -1,4 +1,4 @@
-# DRTN
+# DMGFE
 ## We will put all the codes up after the paper is officially published
 ## Installation
 First you have to make sure that you have all dependencies in place.
