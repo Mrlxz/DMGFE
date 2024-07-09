@@ -27,7 +27,7 @@ python3 setup.py build_ext -i
 ```
 To generate results using a trained model, use
 ```
-python3 main.py -f Samples/test.jpg 
+python3 demo.py -f Samples/test.jpg 
 ```
 ## Evaluation
 To eval our DMGFE , use
